@@ -1,0 +1,11 @@
+{
+	"main" : "index.html",
+	"name" : "hello node-webkit",
+	"window" : {
+		"toolbar" : false,
+		"resizable" : false,
+		"width" : 300,
+		"height" : 260
+	},
+	"icon" : "hello.png"
+}

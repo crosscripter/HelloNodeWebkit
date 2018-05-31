@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Node-Webkit!</title>
+	<meta charset="utf-8"/>
+	<style>
+		body {
+			color: #222;
+			font-family: sans-serif;
+		}
+
+		div {
+			position: fixed;
+			top: 100px;
+			left: 100px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		button {
+			-webkit-user-select: false;
+			padding: 1em 3em;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<button id="sayHello">Say Hello!</button>
+	</div>
+
+	<script>
+		window.addEventListener('load', function() {
+			document.querySelector("#sayHello").addEventListener("click", function() {
+				alert("Hello, Node-Webkit!");
+			});
+		});
+	</script>
+</body>
+</html>
